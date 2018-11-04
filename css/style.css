@@ -1,0 +1,320 @@
+
+
+
+.background {
+    background-image: url(../img/rana-sawalha-364253-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-top {
+    background-color:rgba(0, 0, 0,0.6);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 65px;
+    
+    
+}
+
+
+
+.inline-blocks {
+    display: inline-block;
+}
+
+.green-text {
+    color: #3cb878;
+}
+
+.menu-top-text {
+    font-family: Verdana;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.menu-top-text-left {
+    font-family: Verdana;
+    color:  #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.menu-top-text-left:hover{
+    color: #3cb878;
+}
+
+.site-name {
+    width: 150px;
+    display: inline-block;
+    margin-left: 81px;
+   
+}
+
+.site-icons {
+    width: 150px;
+    border-right: 1px solid  #696969;
+    display: inline-block;
+    margin-left: 600px;
+}
+
+.site-log-out {
+    width: 200px;
+    display: inline-block;
+    text-align:right;
+    padding-left: 15px;
+}
+
+.icon-prop {
+     margin-left: 28px;
+}
+
+.icon {
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    background-image:url(../img/Sprite02.png);
+}
+.icon.icon-calendar{
+    background-position: -5px;
+}
+.icon.icon-calendar:hover{
+    background-position: -5px 25px;
+}
+
+.icon.icon-forum {
+    background-position: -46px;
+}
+.icon.icon-forum:hover{
+    background-position: -47px -67px;
+}
+
+
+.icon.icon-journey {
+  background-position: -86px;  
+}
+.icon.icon-journey:hover{
+    background-position: -85px -66px;
+}
+
+.padding-left {
+    margin-left:28px
+}
+
+.container {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 64px;
+    text-align: center;
+}
+
+.login-form {
+    border: none;
+    width: 444px;
+    height: 684px;
+    background-color: #ffff;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.52);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+
+.gren-aquare {
+    float: left;
+}
+
+.sing-up-text {
+    float: left;
+    padding-left: 42px;
+    font-family: Verdana;
+    color:  #434343;
+    font-size: 20px;
+font-weight: 400;
+}
+
+.log-in-text {
+    float: right;
+    padding-right: 59px;
+    font-family: Verdana;
+    color:  #3cb878;
+    font-size: 14px;
+font-weight: 400;
+}
+
+.fb-button {
+    border: 1px solid #305db8;
+    border-radius: 3px;
+    background-size: cover;
+    height: 46px;
+    width: 157px;
+    box-sizing: border-box;
+    background-color: #305db8;
+    display: inline-block;
+    text-decoration: none;
+    padding: 11px 20px;
+}
+
+
+
+.sing-log {
+    padding-top: 29px;
+    height: 63px;
+}
+
+
+
+.img-border {
+    display: inline-block;
+    float: right;
+    font-family: Verdana;
+    color:  #ffffff;
+    font-size: 16px;
+    
+}
+
+.fb-img-prop {
+    display: inline-block;
+    float: left;
+    border-right: 1px solid #aaaf;
+    padding-right: 20px;
+}
+
+.google-button {
+    border: 1px solid #c3412c;
+    border-radius: 3px;
+    background-size: cover;
+    height: 46px;
+    width: 157px;
+    box-sizing: border-box;
+    background-color: #c3412c;
+    display: inline-block;
+    text-decoration: none;
+    padding: 11px 20px;
+    margin-left: 8px;
+}
+
+.google-img-prop {
+    display: inline-block;
+    float: left;
+    border-right: 1px solid #aaaf;
+    padding-right: 15px;
+}
+
+.text-or-prop {
+    margin-top: 33px;
+    margin-left: 62px;
+    margin-right: 62px;
+    margin-bottom: 20px;
+}
+
+.hr {
+    /* Убираем границу */
+    background-color: #D3D3D3; /* Цвет линии */
+    height: 1px; /* Толщина линии */
+    width: 135px;
+    position: relative;
+     
+        
+        
+}
+
+.hr-left {
+    border: none; /* Убираем границу */
+    background-color: #D3D3D3; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 1px; /* Толщина линии */
+    width: 135px;
+    float: right;
+}
+
+
+
+.send-msg-field {
+    padding: 17px 19px;
+    margin-bottom: 20px;
+    border: 1px solid #D3D3D3;
+    font-family: 'Verdana';
+    color:  #434343;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.send-msg-input {
+    width: 322px;
+}
+
+.send-msg-field-below {
+    padding: 17px 19px;
+    margin-bottom: 20px;
+    border: 1px solid #D3D3D3;
+    font-family: Verdana;
+    color:  #434343;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    box-sizing: border-box;
+}
+}
+
+.text-agree {
+    font-family: 'Verdana';
+    color:  #434343;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.checbox-prop {
+}
+
+.agree-checkbox {
+    float: left;
+}    
+
+.checkbox-agree-features {
+        margin-left: 65px;
+        margin-bottom: 28px;
+
+}
+
+.button-bottom {
+    display: inline-block;
+    background-color: #3cb878;
+    padding: 17px 100px;
+    text-align: center;
+    font-family: 'Verdana';
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+
+
+
+.text-prop-item {
+    display: inline-block;
+}
+
+#hr-1 {
+    background: #FFF;
+    margin-left: 5px; 
+    height: 1px; 
+    overflow: hidden;
+}
+
+.text-features-or {
+    font-family: 'Verdana';
+    color:  #848484;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
